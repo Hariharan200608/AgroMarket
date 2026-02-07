@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AgroMarket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>AgroMarket</h1>
+    <p>Agriculture Machines & Pesticides Online Store</p>
+</header>
+
+<nav>
+    Smart Farming Solutions
+    <span>🛒 Cart: <span id="cartCount">0</span></span>
+</nav>
+
+<section>
+    <h2>Agriculture Machines</h2>
+
+    <div class="products">
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Agricultural_tractor.jpg">
+            <h3>Tractor</h3>
+            <p class="price">₹6,50,000</p>
+            <button onclick="addToCart(650000)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Power_tiller.jpg">
+            <h3>Power Tiller</h3>
+            <p class="price">₹1,20,000</p>
+            <button onclick="addToCart(120000)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Seed_drill.jpg">
+            <h3>Seed Drill</h3>
+            <p class="price">₹45,000</p>
+            <button onclick="addToCart(45000)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Agricultural_sprayer.jpg">
+            <h3>Sprayer</h3>
+            <p class="price">₹8,000</p>
+            <button onclick="addToCart(8000)">Add to Cart</button>
+        </div>
+    </div>
+
+    <h2>Pesticides & Fertilizers</h2>
+
+    <div class="products">
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Organic_fertilizer.jpg">
+            <h3>Organic Fertilizer</h3>
+            <p class="price">₹1,200</p>
+            <button onclick="addToCart(1200)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Urea_fertilizer.jpg">
+            <h3>Urea</h3>
+            <p class="price">₹350</p>
+            <button onclick="addToCart(350)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Insecticide_spray.jpg">
+            <h3>Insecticide</h3>
+            <p class="price">₹600</p>
+            <button onclick="addToCart(600)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Herbicide.jpg">
+            <h3>Herbicide</h3>
+            <p class="price">₹750</p>
+            <button onclick="addToCart(750)">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="cart-box">
+        <h3>Cart Summary</h3>
+        <p>Total Items: <span id="totalItems">0</span></p>
+        <p>Total Amount: ₹<span id="totalAmount">0</span></p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 AgroMarket | Empowering Farmers</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
